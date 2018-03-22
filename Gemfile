@@ -52,3 +52,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#gem "bootstrap_beagle", git: "http://gitlab.ikcrm.com/gems/bootstrap_beagle.git"
+gem "bootstrap_beagle", path: "../bootstrap_beagle"
