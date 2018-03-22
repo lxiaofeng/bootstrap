@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/img/logo-fav.png">
     <title>Beagle</title>
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
   </head>
   <body>
     <div class="be-wrapper">
@@ -16,7 +16,7 @@
       <%= render 'left' %>
       <%= yield %>
       <%= render 'setting' %>
-      <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+      <%= javascript_include_tag 'application' %>
     </div>
   </body>
 </html>
